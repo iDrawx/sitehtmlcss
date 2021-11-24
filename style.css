@@ -55,5 +55,6 @@
 #profil a:hover {
     color: black;
     background-color: white;
+    transition: 1s;
 }
    
