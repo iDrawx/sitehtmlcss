@@ -2,7 +2,7 @@
     margin: 0;
     color: white;
     font-family: 'bisonbold';
-    animation: fadein 1s;
+    animation: fadein 1.5s;
 }
 
 body {
@@ -46,6 +46,7 @@ body {
     top: 20%;
     left: 15%;
     border: solid;
+    animation: popin 1s;
 }
 
 #nom {  
@@ -59,7 +60,7 @@ body {
     position: absolute;
     right: 2%;
     bottom: 4%;
-    font-size: clamp(0rem, 28px, 15rem);
+    font-size: clamp(0rem, 28px, 1500rem);
 }
 
 #profil a {
@@ -85,4 +86,13 @@ body {
         opacity: 100%;
     }
     
+}
+
+@keyframes popin {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
