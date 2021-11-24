@@ -51,7 +51,7 @@
 
 #profil {
     position: absolute;
-    right: 4%;
+    right: 2%;
     bottom: 4%;
     font-size: clamp(0rem, 28px, 15rem);
 }
