@@ -40,7 +40,7 @@ body {
 
 #box-presentation {
     position: absolute;
-    background-color: rgba(255, 255, 0, 0.123);
+    background-color: rgba(0, 0, 0, 0.315);
     width: 40%;
     height: 60%;
     top: 20%;
@@ -67,6 +67,7 @@ body {
     padding-right: 4px;
     padding-left: 4px;
     border-radius: 10px;
+    color: yellow;
 }
 
 #profil a:hover {
