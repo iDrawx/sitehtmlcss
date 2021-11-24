@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    color: white;
+    font-family: 'bisonbold';
+    animation: fadein 1s;
+}
+
+body {
+    background-color: black;
+}
+
 @font-face {
     font-family: 'made_brunoregular';
     src: url('font/made_bruno_personal_use-webfont.woff2') format('woff2'),
@@ -14,12 +25,6 @@
     font-weight: normal;
     font-style: normal;
 
-}
-
-* {
-    margin: 0;
-    color: white;
-    font-family: 'bisonbold';
 }
 
 .presentation {
@@ -69,4 +74,13 @@
     transition: 1s;
     font-size: 120%;
 }
-   
+
+@keyframes fadein {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+    
+}
