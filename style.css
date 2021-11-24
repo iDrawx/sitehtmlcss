@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'made_brunoregular';
+    src: url('font/made_bruno_personal_use-webfont.woff2') format('woff2'),
+         url('font/made_bruno_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bisonbold';
+    src: url('font/bison-bold-webfont.woff2') format('woff2'),
+         url('font/bison-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    color: white;
+    font-family: 'bisonbold';
+}
+
+.presentation {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("background.jpg");
+    height: 100%;
+}
+
+.suite {
+    background-color: green;
+    height : 100%;
+}
+
+#box-presentation {
+    position: absolute;
+    background-color: rgba(255, 255, 0, 0.123);
+    width: 40%;
+    height: 60%;
+    top: 20%;
+    left: 15%;
+    border: solid;
+}
+
+#nom {  
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    font-size: clamp(0rem, 5vw, 15rem);
+}
+
+#profil {
+    position: absolute;
+    right: 4%;
+    bottom: 4%;
+    font-size: clamp(0rem, 28px, 15rem);
+}
+
+#profil a {
+    text-decoration: none;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-radius: 10px;
+}
+
+#profil a:hover {
+    color: black;
+    background-color: white;
+    transition: 1s;
+    font-size: 120%;
+}
+   
