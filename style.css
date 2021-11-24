@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'made_brunoregular';
+    src: url('font/made_bruno_personal_use-webfont.woff2') format('woff2'),
+         url('font/made_bruno_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    color: white;
+    font-family: 'made_brunoregular';
+}
+
+.presentation {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("background.jpg");
+    height: 100%;
+}
+
+.suite {
+    background-color: green;
+    height : 100%;
+}
+
+#box-presentation {
+    position: absolute;
+    background-color: rgba(255, 255, 0, 0.123);
+    width: 40%;
+    height: 60%;
+    top: 20%;
+    left: 15%;
+    border: solid;
+}
+
+#nom {  
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    font-size: clamp(0rem, 4vw, 15rem);
+}
+
+#profil {
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+    font-size: clamp(0rem, 22px, 15rem);
+}
+
+#profil a {
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+#profil a:hover {
+    color: black;
+    background-color: white;
+}
+   
