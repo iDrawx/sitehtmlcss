@@ -67,10 +67,7 @@ section#suite {
 }
 
 #nom {  
-    position: absolute;
-    left: 2%;
-    top: 2%;
-    font-size: clamp(0rem, 5vw, 15rem);
+    font-size: clamp(0rem, 3vw, 15rem);
 }
 
 #profil {
