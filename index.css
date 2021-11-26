@@ -1,3 +1,4 @@
+/* Importation d'une police */
 @font-face {
     font-family: 'bisonbold';
     src: url('font/bison-bold-webfont.woff2') format('woff2'),
@@ -6,6 +7,7 @@
     font-style: normal;
 }
 
+/* Mise en forme globale */
 * {
     margin: 0;
     color: white;
@@ -20,6 +22,7 @@ body {
     overflow-y: hidden;
 }
 
+/* Le menu */
 header {
     background-color: black;
     opacity: 50%;
@@ -57,8 +60,16 @@ header ul li a:hover {
     transition-duration: 0.1s;
 
 }
+
+/* Les sections */
 section {
     height: 100%;
+}
+
+.transition {
+    background-color: white;
+    height: 0.5%;
+
 }
 
 section#home {
@@ -79,6 +90,7 @@ section#contact {
     background-size: cover;
 }
 
+/* Les animations */
 @keyframes fadein {
     0% {
         opacity: 0%;

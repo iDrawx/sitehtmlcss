@@ -1,0 +1,28 @@
+.presentation {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 40%;
+    font-size: 29px;
+    opacity: 70%;
+}
+#name {
+    font-size: 90px;
+}
+
+#more {
+    font-size: 67px;
+    padding-top: 10%;
+}
+
+#more a {
+    text-decoration: none;
+    color: yellow;
+}
+
+#more a:hover {
+    text-decoration: none;
+    font-size: 120%;
+    transition-duration: 1.5s;
+}
