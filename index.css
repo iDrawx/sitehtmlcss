@@ -14,10 +14,13 @@
     scroll-snap-type: y mandatory;
 }
 
+html, body {
+    overflow-y: hidden;
+}
 body {
     background-color: black;
     animation: fadein 1.5s;
-    overflow-y: hidden;
+    position: relative;
 }
 
 header {
