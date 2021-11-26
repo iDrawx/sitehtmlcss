@@ -14,13 +14,10 @@
     scroll-snap-type: y mandatory;
 }
 
-html, body {
-    overflow-y: hidden;
-}
 body {
     background-color: black;
     animation: fadein 1.5s;
-    position: relative;
+    overflow-y: hidden;
 }
 
 header {
@@ -67,16 +64,19 @@ section {
 
 section#home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("background3.jpg");
+    background-position: center;
     background-size: cover;
 }
 
 section#about {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("background.jpg");
+    background-position: center;
     background-size: cover;
 }
 
 section#contact {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("background2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("background4.jpg");
+    background-position: center;
     background-size: cover;
 }
 
