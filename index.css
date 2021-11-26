@@ -59,7 +59,6 @@ header ul li a:hover {
 }
 section {
     height: 100%;
-    scroll-snap-align: center;
 }
 
 section#home {
