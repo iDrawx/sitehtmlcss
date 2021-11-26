@@ -17,6 +17,7 @@
 body {
     background-color: black;
     animation: fadein 1.5s;
+    overflow-y: hidden;
 }
 
 header {
