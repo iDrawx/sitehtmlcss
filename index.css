@@ -63,7 +63,7 @@ header ul li a:hover {
 
 /* Les sections */
 section {
-    height: 100%;
+    height: 100vh;
 }
 
 .transition {
