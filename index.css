@@ -121,7 +121,7 @@ section#about {
     height: 60%;
     top: 20%;
     left: 30%;
-    border: solid;
+    border: solid rgba(255, 255, 255, 0.300);
     animation: popin 1s;
 }
 
