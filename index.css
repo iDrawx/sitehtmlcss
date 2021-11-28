@@ -86,7 +86,7 @@ section#home {
     text-align: center;
     left: 50%;
     transform: translate(-50%, 0);
-    top: 40%;
+    top: 40vh;
     font-size: 29px;
     opacity: 70%;
 }
@@ -123,7 +123,7 @@ section#about {
     width: 768px;
     height: 600px;
     left: 50%;
-    top: 150vh;
+    top: 150vh; /* "vh" au lieu de "%" pour adaptation mobile */
     transform: translate(-50%,-50%);
     border: solid rgba(255, 255, 255, 0.300);
     animation: popin 1s;
@@ -135,7 +135,7 @@ section#about {
     width: 768px;
     height: 600px;
     left: 50%;
-    top: 50%; /* Ici à 50% au lieu de 150% car on n'est plus dans index */
+    top: 50vh; /* Ici à 50% au lieu de 150% car on n'est plus dans index */
     transform: translate(-50%,-50%);
     border: solid rgba(255, 255, 255, 0.300);
     animation: popin 1s;
