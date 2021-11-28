@@ -87,11 +87,17 @@ section#home {
     left: 50%;
     transform: translate(-50%, 0);
     top: 40vh;
-    font-size: 29px;
     opacity: 70%;
 }
-#name {
+
+h1 {
     font-size: 90px;
+    opacity: 90%;
+}
+
+h2 {
+    font-size: 29px;
+    opacity: 90%;
 }
 
 #more {
@@ -145,27 +151,43 @@ section#about {
     font-size: 60px;
 }
 
-#fleche {
+#fleche1 {
     visibility: hidden;
     color: red;
     font-size: 45px;
 }
 
-#choix {
+#fleche2 {
+    visibility: hidden;
+    color: red;
+    font-size: 45px;
+}
+
+#choix1 {
     font-size: 40px;
     text-align: center;
     padding-top: 90px;
 }
 
-#choix a {
+#choix1 a {
     text-decoration: none;
 }
 
-#texteProjetProf:hover ~ #fleche{
+#choix2 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 90px;
+}
+
+#choix2 a {
+    text-decoration: none;
+}
+
+#texteProjetProf:hover ~ #fleche1{
     visibility: visible;
 }
 
-#texteCentresInteret:hover ~ #fleche{
+#texteCentresInteret:hover ~ #fleche2{
     visibility: visible;
 }
 
