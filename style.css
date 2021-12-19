@@ -61,7 +61,6 @@ header ul li a{
 header ul li a:hover {
     font-size: 105%;
     border: solid yellow;
-
 }
 
 /* Les sections */
@@ -108,12 +107,12 @@ h2 {
 #more a {
     text-decoration: none;
     color: yellow;
+    transition-duration: 1s;
 }
 
 #more a:hover {
     text-decoration: none;
     font-size: 120%;
-    transition-duration: 1.5s;
 }
 
 /* Section about */
@@ -239,6 +238,12 @@ section#contact {
     text-align: center;
     text-decoration: underline;
 }
+h4{
+    font-size: 3vw;
+    text-decoration: underline;
+    width: 100%;
+    text-align: center;
+}
 .contenu-contact {
     height: 15%;
     display: flex;
@@ -251,6 +256,14 @@ section#contact {
     font-size: 2vw;
     text-align: center;
     color: yellow;
+}
+.contenu-contact a{
+    text-decoration: none;
+    color: yellow;
+}
+
+.contenu-contact a:hover{
+    color: rgba(255, 255, 0, 0.3);
 }
 
 .mail-contact {
@@ -275,7 +288,6 @@ section#contact {
     border: solid rgba(255, 255, 255, 0.300);
     animation: popin 1s;
 }
-
 #retour a{
     font-size: 35px;
     text-decoration: none;
