@@ -282,7 +282,7 @@ section#contact {
 }
 #retour a:hover{
     color: rgba(255, 255, 255, 0.5);
-    padding-left: 1%;
+    left: 1%;
 }
 #contenu-boxCV2 {
     position: absolute;
@@ -291,6 +291,8 @@ section#contact {
     top: 50%;
     transform: translate(0, -50%);
     width: 100%;
+    background-color: red;
+    left: 0;
 }
 
 /* Les animations */
